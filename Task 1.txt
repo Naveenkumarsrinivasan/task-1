@@ -6,21 +6,21 @@
                                         Document                                                             Window
 
                   * It represents any  HTML document or WEB page                    * It represents a BROWSER Window or Frame 
-                    that is loaded in the browser.                                                 that displays the contents of the web page.
+                    that is loaded in the browser.                                    that displays the contents of the web page.
 
                   * It is Loaded Inside the window.                                 * It is very First object is Loaded in the browser.
 
                   * It is the object of window property.                            * It is the object of the browser.
 
                   * We can access the document from a window                        * We can access the window from the window
-                    using the window.document                                                  only. window.window
+                    using the window.document                                         only. window.window
  
                   * The document is part of BOM and DOM.                            * The window is part of BOM.not DOM.
                      BOM - Browser object model.
                      DOM - Document object model.
 
                   * Properties of document object as title,body,cookies, etc        * Properties of the window object cannot be accessed
-                    can also accessed by a window like this window.                       by the document object.
+                    can also accessed by a window like this window.                   by the document object.
                     document.title
 
                   * Example:                                                         * Example:
